@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <style>
+        .container {
+            position: relative;
+            border: 5px solid black;
+            width: 500px;
+            height: 250px;
+        }
+        .mydiv {
+            /*
+              조상 요소 중 가장 가까운 포지션된 요소를 기준
+
+              *포지션된 요소: position이 static이 아닌 요소
+            */
+            position: absolute;
+            bottom: 0px;
+            right: 0px;
+            border: 5px dotted blue;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="mydiv">Lorem ipsum dolor sit amet.</div>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eius, repellat? Nostrum enim vitae odio facilis quas, itaque quibusdam ullam necessitatibus quam! Cumque, incidunt sequi fuga omnis voluptas inventore animi accusantium.</p>
+        <p>Quam eos, nihil deleniti temporibus omnis aut, suscipit mollitia autem sit voluptas, eius quibusdam officia? Neque harum officiis rerum! Facilis totam necessitatibus sunt? Reiciendis necessitatibus perferendis repudiandae incidunt eaque modi!</p>
+    </div>
+</body>
+</html>
